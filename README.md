@@ -1,4 +1,4 @@
-# DragonCity
+# DragonCity龍城
 
 You can get this game on itch.io : https://jingshing.itch.io/dragoncastle
 
