@@ -1,42 +1,44 @@
 # DragonCity龍城
 
-You can get this game on itch.io : https://jingshing.itch.io/dragoncastle
+[English](https://github.com/JingShing/DragonCity/blob/main/README.md) | 繁體中文
 
-## Update
+你可以在 itch.io 取得這個遊戲 : https://jingshing.itch.io/dragoncastle
+
+## Update更新
 
 ### ver 1.0:
 
-- completed 5 weapon & 2 magic. 5 monsters. and load map method.
-- UI has hp and mp bar. and upgrade menu system.
+- 包含 5 個武器 和 2 個魔法。 5 種怪物。 和 讀取地圖的系統。
+- 血條、魔力條、和升級系統。
 
 ```
-arrow key to move.
-q to change weapon.
-e to cheange magic.
-space to use weapon.
-L_ctrl to use magic.
-M to open upgrade_menu.
-P to paused game.
+方向鍵移動
+Q 切換武器
+E 切換魔法
+空格 使用武器
+左_ctrl 使用魔法
+M 打開升級選單
+P 暫停遊戲
 ```
 
 ### ver1.1:
 
-- with new import method : resource_path(path)
-- now the game can be pack all assets and script into one exe.
+- 新增新方法 : resource_path(path)
+- 將資源一起打包到exe中
 
 ### ver 1.2:
 
-- player died will reset the scene.
-- player spawn with invincible time. with flicker.
-- player died will drop half exp
-- add stamina system and tired flag
-- dead will not drop stats
-- fix and improve stamina system : somehow you reduce stamina to negative it will change to maxinum.
-- add roll system: press shift to roll
+- 玩家死亡會重置場景
+- 玩家生成會自帶無敵時間，自身會閃爍。
+- 玩家死亡會掉落一半的經驗值
+- 新增體力系統和虛脫標誌
+- 死亡不再損失能力值
+- 修復並優化體力系統 : 在體力為負時會變為最大值的問題修復
+- 新增翻滾 ： 按 shift 翻滾
 
 ### ver 1.3:
 
-- add npcs and minions
+- 新增 npc 和 召喚物
 
 - minion is in magic and has cat type.
 - improve collision : monster has collison with monster,  minion has collison with minion, big collision object has no collsion with same type object
