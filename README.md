@@ -1,5 +1,7 @@
 # DragonCity龍城
 
+English | [繁體中文](https://github.com/JingShing/DragonCity/blob/main/README_TCH.md)
+
 You can get this game on itch.io : https://jingshing.itch.io/dragoncastle
 
 ## Update
