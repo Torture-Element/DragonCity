@@ -98,22 +98,22 @@ fixed dialog box multi-line bug.
 - change u to upgrade.
 - change z to attack.
 - change m to mute music.
-- add fullscreen function -> press f to fullscreen
+- 新增全螢幕功能 -> 按 F 全螢幕
 
-release first version  DragonCastle152
+釋出第一個版本  DragonCastle152
 
 ### ver 1.5.3:
 
-- add dialog npc icon.
-- add two language select: chinese and english
-- add npc speak sound
+- 新增NPC對話頭像
+- 新增語言切換 ： 中文、英文
+- 新增對話音效
 
 ### ver 1.5.5:
 
-- add full screen back
-- add shader change
-- add multiple window feature
+- 將全螢幕功能重新添加
+- 新增切換濾鏡
+- 新增多視窗功能
 
 ### ver 1.5.6
 
-* Fixed chinese font bug.
+* 修復中文字體顯示不全
