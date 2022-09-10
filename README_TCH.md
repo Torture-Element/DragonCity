@@ -40,11 +40,11 @@ P 暫停遊戲
 
 - 新增 npc 和 召喚物
 
-- minion is in magic and has cat type.
-- improve collision : monster has collison with monster,  minion has collison with minion, big collision object has no collsion with same type object
-- fixed : recover method error -> full bar turn to empty
-- fixed : big monster push little monster out boarder
-- improved: menu & title screen -> with alpha changed and button works
+- 可以透過魔法來召喚使魔，目前可以召喚貓咪
+- 優化碰撞 : 怪物和怪物有碰撞體積,  召喚物和召喚物有碰撞體積, 大型物體和同類別物體沒有碰撞體積
+- 修復 : 回復方法錯誤 -> 溢出會歸零
+- 修復 : 大型怪物會把怪物撞到邊界外
+- 優化 : menu & title screen -> with alpha changed and button works
 - improved: every ui bar-> hp, mp, stamina with dark souls style
 - set new icon and new caption
 - now player has dead screen as menu
