@@ -44,37 +44,37 @@ P 暫停遊戲
 - 優化碰撞 : 怪物和怪物有碰撞體積,  召喚物和召喚物有碰撞體積, 大型物體和同類別物體沒有碰撞體積
 - 修復 : 回復方法錯誤 -> 溢出會歸零
 - 修復 : 大型怪物會把怪物撞到邊界外
-- 優化 : menu & title screen -> with alpha changed and button works
-- improved: every ui bar-> hp, mp, stamina with dark souls style
-- set new icon and new caption
-- now player has dead screen as menu
+- 優化 : 選當 & 標題畫面 -> 更改透明度以及按鈕運作
+- 優化 : 所有量條-> 血量, 魔力, 體力 減少和增加會有漸變效果
+- 設置新圖標和新標題
+- 玩家增加死亡畫面和選單
 
 ### ver 1.4:
 
-- improved camera:
+- 優化攝影機:
 
-- w, a, s, d to control camera and alse mouse can control camera move
+- w, a, s, d 和滑鼠可以控制鏡頭移動
 
-\# mouse control camera isn't put in game ver
--, + to use scale. also can use mouse wheel.
-esc to quit game
+\# 滑鼠控制鏡頭從遊戲移除
+-, + 可以控制縮放，滑鼠滾輪也可以
+ESC 退出遊戲
 
 ### ver 1.4.1
 
-- removed scale map feature. since some camera feature too lag.
+- 移除縮放地圖的功能，會使遊戲太卡
 
-- if need more camera feature plz use 1.4
+- 如果要測試更多鏡頭功能，要使用1.4版本
 
 ### ver 1.4.2:
 
-- back to 1.4.
+- 重回1.4版本
 
-- find the lag reason: scale module. internal_surface_size need to be limited in 2000 X 2000
-- now the fps is normal back to around 60
+- 找到卡頓原因 : 縮放模塊，限制縮放尺寸。現在最多縮放到 2000 X 2000
+- 現在FPS可以穩定60幀
 
 ### ver 1.5:
 
-- save and load system basic : player info
+- 存檔讀檔功能 : 玩家信息
 
 - add load and save menu button
 - fixed: player refresh function error. it makes health and mp bar animtaion failed.
