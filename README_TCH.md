@@ -76,28 +76,28 @@ ESC 退出遊戲
 
 - 存檔讀檔功能 : 玩家信息
 
-- add load and save menu button
-- fixed: player refresh function error. it makes health and mp bar animtaion failed.
-- improved: walk no longer cost stamina.
-- improved: idle will recover more energy. but walk recover slower than usual.
-- improved: esc became menu key. and n key got removed.
-- add npc. if npc can talk it will apear bubble icon.
-- add npc dialog box. player now can talk to npc.
-  -> player use t to talk. use enter to continue dialog. can pressed enter to skip dialog.
-- improved: text box can go multiple line
+- 在選單增加存檔、讀檔按鈕
+- 修復: 玩家重置按鈕錯誤。讓量條動畫失效。
+- 優化: 走路不再消耗體力
+- 優化: 站在原地會恢復更多體力。 走路回復體力的速度降低。
+- 優化: ESC 更改為選單鍵。N 鍵移除功能。
+- 新增NPC。 如果NPC能夠對話，會跳出對話泡泡
+- 新增NPC對話框。 玩家可以和NPC對話了。
+  -> 玩家使用 T 對話。 使用 Enter 繼續對話。
+- 優化: 對話框多行對話
 
 ### ver 1.5.1:
 
-fixed dialog box multi-line bug.
+修復多行對話BUG。
 
 ### ver 1.5.2:
 
-- add text outline function.
-- add press 'T' to talk hint. hint will change if start a dialog box.
-   -> press 'enter' to continue
-- change u to upgrade.
-- change z to attack.
-- change m to mute music.
+- 新增文字外框函數
+- 增加提示：按 'T' 進行對話。 如果開始對話會更改提示。
+   -> 按 'Enter' 繼續對話
+- 更改 U 升級選單
+- 更改 Z 攻擊
+- 更改 M 音樂靜音
 - 新增全螢幕功能 -> 按 F 全螢幕
 
 釋出第一個版本  DragonCastle152
